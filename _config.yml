@@ -3,11 +3,12 @@
 # ----------------------- #
 
 url: http://afred.github.io
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: afred writes
+subtitle: code and stuff
+author: Andrew Myers
 simple_search: https://www.google.com/search
-description:
+description: web developer for public media digitial library and archive
+ 
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -33,12 +34,13 @@ destination: public
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
-markdown: rdiscount
-rdiscount:
-  extensions:
-    - autolink
-    - footnotes
-    - smart
+# markdown: rdiscount
+markdown: redcarpet
+# rdiscount:
+#   extensions:
+#     - autolink
+#     - footnotes
+#     - smart
 highlighter: pygments # default python pygments have been replaced by pygments.rb
 
 paginate: 10          # Posts per page on the blog index
