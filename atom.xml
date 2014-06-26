@@ -4,7 +4,7 @@
   <title><![CDATA[afred writes]]></title>
   <link href="http://afred.github.io/atom.xml" rel="self"/>
   <link href="http://afred.github.io/"/>
-  <updated>2014-06-26T16:25:49-04:00</updated>
+  <updated>2014-06-26T17:23:29-04:00</updated>
   <id>http://afred.github.io/</id>
   <author>
     <name><![CDATA[Andrew Myers]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Deploying Octopress to Github User Pages.]]></title>
-    <link href="http://afred.github.io/blog/2014/06/25/foo-bar/"/>
+    <link href="http://afred.github.io/blog/2014/06/25/deploying-octopress-to-github-user-pages/"/>
     <updated>2014-06-25T10:40:54-04:00</updated>
-    <id>http://afred.github.io/blog/2014/06/25/foo-bar</id>
+    <id>http://afred.github.io/blog/2014/06/25/deploying-octopress-to-github-user-pages</id>
     <content type="html"><![CDATA[<p>So far, I&#39;m very impressed with the Octopress docs. They are clear and (at the time of this writing) they work as advertised. Following the steps on these pages worked for me.</p>
 
 <ol>
