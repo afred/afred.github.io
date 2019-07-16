@@ -9,11 +9,11 @@ class Publisher
     `rm -r #{@tmp_dir}/*`
     `bundle exec jekyll build -d #{@tmp_dir}`
     Dir.chdir @tmp_dir do
-      `git add #{@tmp_dir}/.`
+      `git add .`
       `git commit -m "Publishing with Publisher tool."`
       `git push`
     end
-    `rm -rf #{@tmp_dir}`
+    # `rm -rf #{@tmp_dir}`
   end
 
   def self.publish
